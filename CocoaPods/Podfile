@@ -1,0 +1,8 @@
+use_frameworks!
+
+target :CocoaPods do
+	platform :ios, "8.1"
+
+	pod 'PromiseKit', '~> 2.2'
+	pod 'MyDynamicLibrary', :path => '../MyDynamicLibrary'
+end

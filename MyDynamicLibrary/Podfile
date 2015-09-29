@@ -1,0 +1,7 @@
+use_frameworks!
+
+target :MyDynamicLibrary do
+	platform :ios, "8.1"
+
+	pod 'PromiseKit', '~> 2.2'
+end
